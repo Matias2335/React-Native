@@ -1,11 +1,27 @@
-# Sample Snack app
+<h1 align="center">Descrição do Aplicativo </h1>
+<h3>Este aplicativo permite aos usuários realizar o cadastro/login e fazer pedidos de produtos de maneira simples e intuitiva. Após o login, os usuários podem navegar por diferentes categorias de produtos, como Lanches e Bebidas, e adicionar itens ao carrinho de compras.</h4>
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+<h3>Funcionalidades Principais </h3>
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+**Cadastro/Login:** Usuários podem se cadastrar e fazer login para acessar o aplicativo.           
+**Escolha de Produtos:** Navegue por categorias de produtos, por exemplo, Lanches (X-Salada) e Bebidas (Refrigerante).         
+**Adicionar ao Carrinho:** Adicione quantos produtos desejar ao carrinho. Cada adição é registrada no banco de dados Firebase.           
+**Remover do Carrinho:** Remova produtos do carrinho conforme necessário.           
+**Visualização do Carrinho:** Visualize todos os produtos adicionados e removidos, listados individualmente no carrinho.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+<h3>Tecnologias Utilizadas</h3>
+<h4>Frontend : [Tecnologias do frontend, por exemplo, React Native] <br>                                                
+Backend: [Tecnologias do backend, por exemplo, Node.js, Express] <br>
+Banco de Dados: Firebase </h4>
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+<h3> Como Usar: </h3>
+<li>Cadastro/Login</li>
+<li>Cadastre-se ou faça login para acessar a aplicação.</li>
+<li>Escolha de Produtos</li>
+<li>Navegue pelas categorias disponíveis e selecione os produtos desejados.</li>
+<li>Adicionar ao Carrinho</li>
+<li>Clique no botão "Adicionar" para incluir produtos no carrinho. As informações serão salvas automaticamente no Firebase.</li>
+<li>Remover do Carrinho</li>
+<li>Para remover um produto, clique no botão "Remover" correspondente ao item.</li>
+<li>Visualizar Carrinho</li>
+<li>Acesse a tela do carrinho para ver a lista completa de produtos adicionados e removidos.</li>
