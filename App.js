@@ -259,6 +259,9 @@ class ListarItens extends React.Component {
       <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
         <Text style={estilos.texto_pedidos}>
+          {"\n"}
+          {"\n"}
+          {"\n"}
           Menu Salgados:
           {"\n"}1- Hamburgão <Button title={`+ (${pedidos['Hamburgão']})`} onPress={() => this.handlePress('Hamburgão')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Hamburgão')} color="red" />
@@ -408,6 +411,7 @@ class ListarItens extends React.Component {
        <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
         <Text style={estilos.texto_pedidos}>
+          {"\n"}
           Menu Pasteis:
           {"\n"}1- Carne <Button title={`+ (${pedidos['Carne']})`} onPress={() => this.handlePress('Carne')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Carne')} color="red" />
@@ -486,6 +490,8 @@ class ListarItens extends React.Component {
       <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
         <View style={estilos.container}>
           <Text style={estilos.texto_pedidos}>
+            {"\n"}
+            {"\n"}
             Menu Porções:
             {"\n"}1- Batata Frita <Button title={`+ (${pedidos['Batata Frita']})`} onPress={() => this.handlePress('Batata Frita')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Batata Frita')} color="red" />
@@ -563,9 +569,11 @@ class ListarItens extends React.Component {
     const { pedidos } = this.state;
     return (
        <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
-      <View style={estilos.container}>
+      <View style={estilos.container2}>
         <Text style={estilos.texto_pedidos}>
-          Menu Lanches:
+            {"\n"}
+            {"\n"}
+            {"\n"}Menu Lanches:
             {"\n"}1- X-Burguer <Button title={`+ (${pedidos['X-Burguer']})`} onPress={() => this.handlePress('X-Burguer')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('X-Burguer')} color="red" />
             {"\n"}2- X-Salada  <Button  title={`+ (${pedidos['X-Salada']})`} onPress={() => this.handlePress('X-Salada')} color="#66ccff" />
@@ -687,6 +695,11 @@ class ListarItens extends React.Component {
     alignItems: 'center',
     padding: 8
   },
+   container2: {
+     paddingTop: 20,
+     marginTop: 20,
+   },
+
   container_nav: {
     flex: 1,
     justifyContent: 'center',
@@ -705,7 +718,7 @@ class ListarItens extends React.Component {
     marginTop: 20 
   },
   texto_pedidos: {
-    marginTop:50,
+    marginTop: 50,
     color: 'white', 
     fontSize: 25,
     textAlign: 'flex-end',
