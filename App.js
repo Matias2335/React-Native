@@ -258,25 +258,25 @@ class ListarItens extends React.Component {
     return (
       <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
-        <Text style={estilos.texto_sinopses}>
+        <Text style={estilos.texto_pedidos}>
           Menu Salgados:
-          {"\n"}1- Hamburgão <Button title={`+ (${pedidos['Hamburgão']})`} onPress={() => this.handlePress('Hamburgão')} color="red" />
+          {"\n"}1- Hamburgão <Button title={`+ (${pedidos['Hamburgão']})`} onPress={() => this.handlePress('Hamburgão')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Hamburgão')} color="red" />
-          {"\n"}2- Bauru <Button title={`+ (${pedidos['Bauru']})`} onPress={() => this.handlePress('Bauru')} color="red" />
+          {"\n"}2- Bauru <Button title={`+ (${pedidos['Bauru']})`} onPress={() => this.handlePress('Bauru')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Bauru')} color="red" />
-          {"\n"}3- Esfiha <Button title={`+ (${pedidos['Esfiha']})`} onPress={() => this.handlePress('Esfiha')} color="red" />
+          {"\n"}3- Esfiha <Button title={`+ (${pedidos['Esfiha']})`} onPress={() => this.handlePress('Esfiha')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Esfiha')} color="red" />
-          {"\n"}4- Empadinha <Button title={`+ (${pedidos['Empadinha']})`} onPress={() => this.handlePress('Empadinha')} color="red" />
+          {"\n"}4- Empadinha <Button title={`+ (${pedidos['Empadinha']})`} onPress={() => this.handlePress('Empadinha')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Empadinha')} color="red" />
-          {"\n"}5- Pão de Queijo <Button title={`+ (${pedidos['Pão de Queijo']})`} onPress={() => this.handlePress('Pão de Queijo')} color="red" />
+          {"\n"}5- Pão de Queijo <Button title={`+ (${pedidos['Pão de Queijo']})`} onPress={() => this.handlePress('Pão de Queijo')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Pão de Queijo')} color="red" />
-          {"\n"}6- Coxinha <Button title={`+ (${pedidos['Coxinha']})`} onPress={() => this.handlePress('Coxinha')} color="red" />
+          {"\n"}6- Coxinha <Button title={`+ (${pedidos['Coxinha']})`} onPress={() => this.handlePress('Coxinha')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Coxinha')} color="red" />
-          {"\n"}7- Kibe <Button title={`+ (${pedidos['Kibe']})`} onPress={() => this.handlePress('Kibe')} color="red" />
+          {"\n"}7- Kibe <Button title={`+ (${pedidos['Kibe']})`} onPress={() => this.handlePress('Kibe')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Kibe')} color="red" />
-          {"\n"}8- Bolinho Japonês <Button title={`+ (${pedidos['Bolinho Japonês']})`} onPress={() => this.handlePress('Bolinho Japonês')} color="red" />
+          {"\n"}8- Bolinho Japonês <Button title={`+ (${pedidos['Bolinho Japonês']})`} onPress={() => this.handlePress('Bolinho Japonês')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Bolinho Japonês')} color="red" />
-          {"\n"}9- Bolinho de Carne <Button title={`+ (${pedidos['Bolinho de Carne']})`} onPress={() => this.handlePress('Bolinho de Carne')} color="red" />
+          {"\n"}9- Bolinho de Carne <Button title={`+ (${pedidos['Bolinho de Carne']})`} onPress={() => this.handlePress('Bolinho de Carne')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Bolinho de Carne')} color="red" />
         </Text>
       </View>
@@ -335,19 +335,19 @@ class ListarItens extends React.Component {
     return (
        <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
-        <Text style={estilos.texto_sinopses}>
+        <Text style={estilos.texto_pedidos}>
           Menu Bebidas:
-          {"\n"}1- Refrigerante <Button title={`+ (${pedidos['Refrigerante']})`} onPress={() => this.handlePress('Refrigerante')} color="red" />
+          {"\n"}1- Refrigerante <Button title={`+ (${pedidos['Refrigerante']})`} onPress={() => this.handlePress('Refrigerante')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Refrigerante')} color="red" />
-          {"\n"}2- Suco <Button title={`+ (${pedidos['Suco']})`} onPress={() => this.handlePress('Suco')} color="red" />
+          {"\n"}2- Suco <Button title={`+ (${pedidos['Suco']})`} onPress={() => this.handlePress('Suco')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Suco')} color="red" />
-          {"\n"}3- Água Mineral<Button title={`+ (${pedidos['Água Mineral']})`} onPress={() => this.handlePress('Água Mineral')} color="red" />
+          {"\n"}3- Água Mineral<Button title={`+ (${pedidos['Água Mineral']})`} onPress={() => this.handlePress('Água Mineral')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Água Mineral')} color="red" />
-          {"\n"}4- Café <Button title={`+ (${pedidos['Café']})`} onPress={() => this.handlePress('Café')} color="red" />
+          {"\n"}4- Café <Button title={`+ (${pedidos['Café']})`} onPress={() => this.handlePress('Café')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Café')} color="red" />
-          {"\n"}4- Energetico <Button title={`+ (${pedidos['Energetico']})`} onPress={() => this.handlePress('Energetico')} color="red" />
+          {"\n"}4- Energetico <Button title={`+ (${pedidos['Energetico']})`} onPress={() => this.handlePress('Energetico')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Energetico')} color="red" />
-          {"\n"}4- Cerveja <Button title={`+ (${pedidos['Cerveja']})`} onPress={() => this.handlePress('Cerveja')} color="red" />
+          {"\n"}4- Cerveja <Button title={`+ (${pedidos['Cerveja']})`} onPress={() => this.handlePress('Cerveja')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Cerveja')} color="red" />
         </Text>
       </View>
@@ -407,23 +407,23 @@ class ListarItens extends React.Component {
     return (
        <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
-        <Text style={estilos.texto_sinopses}>
+        <Text style={estilos.texto_pedidos}>
           Menu Pasteis:
-          {"\n"}1- Carne <Button title={`+ (${pedidos['Carne']})`} onPress={() => this.handlePress('Carne')} color="red" />
+          {"\n"}1- Carne <Button title={`+ (${pedidos['Carne']})`} onPress={() => this.handlePress('Carne')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Carne')} color="red" />
-          {"\n"}2- Queijo <Button title={`+ (${pedidos['Queijo']})`} onPress={() => this.handlePress('Queijo')} color="red" />
+          {"\n"}2- Queijo <Button title={`+ (${pedidos['Queijo']})`} onPress={() => this.handlePress('Queijo')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Queijo')} color="red" />
-          {"\n"}3- Calabresa <Button title={`+ (${pedidos['Calabresa']})`} onPress={() => this.handlePress('Calabresa')} color="red" />
+          {"\n"}3- Calabresa <Button title={`+ (${pedidos['Calabresa']})`} onPress={() => this.handlePress('Calabresa')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Calabresa')} color="red" />
-          {"\n"}4- Frango c/Catupiry <Button title={`+ (${pedidos['Frango c/Catupiry']})`} onPress={() => this.handlePress('Frango c/Catupiry')} color="red" />
+          {"\n"}4- Frango c/Catupiry <Button title={`+ (${pedidos['Frango c/Catupiry']})`} onPress={() => this.handlePress('Frango c/Catupiry')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Frango c/Catupiry')} color="red" />
-          {"\n"}5- Carne  c/Queijo <Button title={`+ (${pedidos['Carne  c/Queijo']})`} onPress={() => this.handlePress('Carne  c/Queijo')} color="red" />
+          {"\n"}5- Carne  c/Queijo <Button title={`+ (${pedidos['Carne  c/Queijo']})`} onPress={() => this.handlePress('Carne  c/Queijo')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Carne  c/Queijo')} color="red" />
-          {"\n"}6- Pizza <Button title={`+ (${pedidos['Pizza']})`} onPress={() => this.handlePress('Pizza')} color="red" />
+          {"\n"}6- Pizza <Button title={`+ (${pedidos['Pizza']})`} onPress={() => this.handlePress('Pizza')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Pizza')} color="red" />
-          {"\n"}7- Bauru <Button title={`+ (${pedidos['Bauru']})`} onPress={() => this.handlePress('Bauru')} color="red" />
+          {"\n"}7- Bauru <Button title={`+ (${pedidos['Bauru']})`} onPress={() => this.handlePress('Bauru')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Bauru')} color="red" />
-          {"\n"}8- Carne Queijo e ovo <Button title={`+ (${pedidos['Carne Queijo e ovo']})`} onPress={() => this.handlePress('Carne Queijo e ovo')} color="red" />
+          {"\n"}8- Carne Queijo e ovo <Button title={`+ (${pedidos['Carne Queijo e ovo']})`} onPress={() => this.handlePress('Carne Queijo e ovo')} color="#66ccff" />
           <Button title="   -   " onPress={() => this.handleRemove('Carne Queijo e ovo')} color="red" />
         </Text>
       </View>
@@ -485,23 +485,23 @@ class ListarItens extends React.Component {
     return (
       <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
         <View style={estilos.container}>
-          <Text style={estilos.texto_sinopses}>
+          <Text style={estilos.texto_pedidos}>
             Menu Porções:
-            {"\n"}1- Batata Frita <Button title={`+ (${pedidos['Batata Frita']})`} onPress={() => this.handlePress('Batata Frita')} color="red" />
+            {"\n"}1- Batata Frita <Button title={`+ (${pedidos['Batata Frita']})`} onPress={() => this.handlePress('Batata Frita')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Batata Frita')} color="red" />
-            {"\n"}2- Calabresa <Button title={`+ (${pedidos['Calabresa']})`} onPress={() => this.handlePress('Calabresa')} color="red" />
+            {"\n"}2- Calabresa <Button title={`+ (${pedidos['Calabresa']})`} onPress={() => this.handlePress('Calabresa')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Calabresa')} color="red" />
-            {"\n"}3- Churrasco <Button title={`+ (${pedidos['Churrasco']})`} onPress={() => this.handlePress('Churrasco')} color="red" />
+            {"\n"}3- Churrasco <Button title={`+ (${pedidos['Churrasco']})`} onPress={() => this.handlePress('Churrasco')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Churrasco')} color="red" />
-            {"\n"}4- Torresmo <Button title={`+ (${pedidos['Torresmo']})`} onPress={() => this.handlePress('Torresmo')} color="red" />
+            {"\n"}4- Torresmo <Button title={`+ (${pedidos['Torresmo']})`} onPress={() => this.handlePress('Torresmo')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Torresmo')} color="red" />
-            {"\n"}5- Salame <Button title={`+ (${pedidos['Salame']})`} onPress={() => this.handlePress('Salame')} color="red" />
+            {"\n"}5- Salame <Button title={`+ (${pedidos['Salame']})`} onPress={() => this.handlePress('Salame')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Salame')} color="red" />
-            {"\n"}6- Queijo c/Salame <Button title={`+ (${pedidos['Queijo c/Salame']})`} onPress={() => this.handlePress('Queijo c/Salame')} color="red" />
+            {"\n"}6- Queijo c/Salame <Button title={`+ (${pedidos['Queijo c/Salame']})`} onPress={() => this.handlePress('Queijo c/Salame')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Queijo c/Salame')} color="red" />
-            {"\n"}7- Batata c/Bacon <Button title={`+ (${pedidos['Batata c/Bacon']})`} onPress={() => this.handlePress('Batata c/Bacon')} color="red" />
+            {"\n"}7- Batata c/Bacon <Button title={`+ (${pedidos['Batata c/Bacon']})`} onPress={() => this.handlePress('Batata c/Bacon')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Batata c/Bacon')} color="red" />
-            {"\n"}8- Pasteis <Button title={`+ (${pedidos['Pasteis']})`} onPress={() => this.handlePress('Pasteis')} color="red" />
+            {"\n"}8- Pasteis <Button title={`+ (${pedidos['Pasteis']})`} onPress={() => this.handlePress('Pasteis')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('Pasteis')} color="red" />
           </Text>
         </View>
@@ -564,7 +564,7 @@ class ListarItens extends React.Component {
     return (
        <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
       <View style={estilos.container}>
-        <Text style={estilos.texto_sinopses}>
+        <Text style={estilos.texto_pedidos}>
           Menu Lanches:
             {"\n"}1- X-Burguer <Button title={`+ (${pedidos['X-Burguer']})`} onPress={() => this.handlePress('X-Burguer')} color="#66ccff" />
             <Button title="   -   " onPress={() => this.handleRemove('X-Burguer')} color="red" />
@@ -598,7 +598,7 @@ class ListarItens extends React.Component {
     render() {
       return (
         <ImageBackground source={require('./assets/fundo.png')} style={estilos.background}>
-        <View style={estilos.container_filmes}>
+        <View style={estilos.container_nav}>
           <TouchableOpacity style={estilos.botoes_pedidos} onPress={() => this.props.navigation.navigate('Lanches')}>
             <Text>Lanches</Text>
           </TouchableOpacity>
@@ -687,7 +687,7 @@ class ListarItens extends React.Component {
     alignItems: 'center',
     padding: 8
   },
-  container_filmes: {
+  container_nav: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -704,7 +704,7 @@ class ListarItens extends React.Component {
     width: '200%',
     marginTop: 20 
   },
-  texto_sinopses: {
+  texto_pedidos: {
     marginTop:50,
     color: 'white', 
     fontSize: 25,
@@ -729,7 +729,5 @@ class ListarItens extends React.Component {
   
 });
   
-
-
 
 export default App;
