@@ -25,3 +25,26 @@ Banco de Dados: Firebase </h4>
 <li>Para remover um produto, clique no botão "Remover" correspondente ao item.</li>
 <li>Visualizar Carrinho</li>
 <li>Acesse a tela do carrinho para ver a lista completa de produtos adicionados e removidos.</li>
+<h2>Tela De Cadastro</h2>
+<image src = "1.jpg" height="500"> <image src = "1_2.jpg" height="500"> <image src = "1_3.jpg" height="500">
+
+<h2>Tela De Login</h2>
+<image src = "2.jpg" height="500">
+  
+<h2>Tela De Pedidos</h2>
+<image src = "3.jpg" height="500">
+  
+<h2>Tela De Produtos</h2>
+<image src = "4.jpg" height="500"> <image src = "4_1.jpg" height="500"> <image src = "4_2.jpg" height="500"> <image src = "4_3.jpg" height="500"> <image src = "4_4.jpg" height="500">
+
+<h2>Listar Pedidos</h2>
+<image src = "5.jpg" height="500">
+
+<h2>Banco de dados</h2>
+<image src = "6.png" height="500">
+
+
+
+
+
+
