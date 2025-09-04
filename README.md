@@ -11,7 +11,6 @@
 
 <h3>Tecnologias Utilizadas</h3>
 <h4>Frontend : [Tecnologias do frontend, por exemplo, React Native] <br>                                                
-Backend: [Tecnologias do backend, por exemplo, Node.js, Express] <br>
 Banco de Dados: Firebase </h4>
 
 <h3> Como Usar: </h3>
